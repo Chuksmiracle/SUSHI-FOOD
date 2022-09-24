@@ -1,0 +1,664 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.content h1{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 75px;
+
+    color: #FFFFFF;
+
+}
+
+.content p{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 31px;
+    text-align: center;
+    margin: 30px 0;
+    color: #FFFFFF;
+}
+
+.click{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    width: 250px;
+height: 80px;
+background: #FFFFFF;
+border-radius: 2px;
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 300;
+font-size: 30px;
+line-height: 38px;
+/* identical to box height */
+cursor: pointer;
+margin: 0 10px;
+color: #000000;
+}
+
+a{
+    text-decoration: none;
+    color:#000000;
+}
+
+/* ----menu---- */
+.body{
+    display: flex;
+    /* justify-content: space-around; */
+}
+.navsection{
+    width: 20%;
+}
+.con{
+    width: 70%;
+   
+}
+
+.navsection .nav{
+    box-sizing: border-box;
+
+position: absolute;
+width: 132px;
+height: 852px;
+left: 57px;
+top: 43px;
+color: #FFFFFF;
+background: #0C0B0B;
+border-radius: 24px;
+box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),  0.3em 0.3em 2em rgba(0,0,0,0.3);
+}
+
+.nav h2{
+    position: absolute;
+width: 51px;
+height: 102px;
+left: 55px;
+top: 40px;
+
+font-family: 'Baloo Bhai';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 102px;
+/* identical to box height */
+
+
+color: #F1D5BB;
+}
+.con .header{
+    position: absolute;
+width: 306px;
+height: 63px;
+left: 243px;
+top: 43px;
+
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 63px;
+/* identical to box height */
+
+
+color: #000000;
+
+}
+.home i{
+    box-sizing: border-box;
+position: absolute;
+bottom: 75.3%;
+height: 40px;
+width: 40px;
+left: 55px;
+top: 207px;
+border-radius: 0px;
+
+}
+
+
+.path{
+
+    position: absolute;
+    width: 134px;
+    height: 122px;
+    top: 302px;
+    
+background: #F1D5BB;
+
+}
+.path i{
+
+    position: absolute;
+   height: 40px;
+width: 37.99172592163086px;
+left: 55px;
+font-size: large;
+top: 53px;
+border-radius: 0px;
+    bottom: 61.7%;
+    color: #000000;
+   
+}
+.cart i{
+    position: absolute;
+    height: 10px;
+    width: 24.290979385375977px;
+    left: 55px;
+    top: 504px;
+    border-radius: 0px;
+    
+    bottom: 48.6%;
+    
+}
+
+.location{
+    position: absolute;
+    height: 29.760000228881836px;
+    width: 25px;
+    left: 55px;
+    top: 650px;
+    border-radius: 0px;
+    
+    bottom: 31.72%;
+}
+
+.exit{
+    box-sizing: border-box;
+
+position: absolute;
+height: 40px;
+width: 40px;
+left: 55px;
+top: 770px;
+border-radius: 0px;
+
+/* bottom: 17%; */
+
+}
+
+
+.body-con{
+    
+    display: flex;
+    justify-content: space-around;
+    overflow-wrap: break-word;
+}
+
+
+
+.Smashed-Avo {
+position: absolute;
+top: 26.7%;
+left: 18%;
+text-align: center;
+font-family: 'Mulish';
+font-style: normal;
+}
+
+.Smashed-Avo img{
+    border-radius: 9px;
+    margin-bottom: 10px;
+    }
+
+.Yin-Yang {
+    position: absolute;
+    top: 26.7%;
+    left: 39%;
+    text-align: center;
+    font-family: 'Mulish';
+    font-style: normal;
+}
+
+.Yin-Yang img{
+    border-radius: 9px;
+    margin-bottom: 10px;
+    }
+
+
+.Huevos-Rancheros {
+    position: absolute;
+    top: 26.7%;
+left: 59%;
+text-align: center;
+font-family: 'Mulish';
+font-style: normal;
+}
+
+.Huevos-Rancheros img{
+    border-radius: 9px;
+    margin-bottom: 10px;
+    }
+
+.Huev {
+    position: absolute;
+    top: 26.7%;
+    left: 79%;
+    text-align: center;
+    font-family: 'Mulish';
+    font-style: normal;
+}
+.Huev img{
+    border-radius: 9px;
+    margin-bottom: 10px;
+   
+    }
+
+.body-con-2{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.tofu {
+    position: absolute;
+    top: 79%;
+    left: 18%;
+    text-align: center;
+    font-family: 'Mulish';
+    font-style: normal;
+
+}
+
+.tofu img{
+    border-radius: 9px;
+    margin-bottom: 10px;
+}
+
+.roll{
+    position: absolute;
+    top: 79%;
+    left: 39%;
+    text-align: center;
+    font-family: 'Mulish';
+    font-style: normal;
+}
+
+.roll img{
+    border-radius: 9px;
+    margin-bottom: 10px;
+}
+
+.Breakkie{
+    position: absolute;
+    top: 79%;
+    left: 59%;
+    text-align: center;
+    font-family: 'Mulish';
+    font-style: normal;
+}
+
+.Breakkie img{
+    border-radius: 9px;
+    margin-bottom: 10px;
+}
+
+.Burrito{
+    position: absolute;
+    top: 79%;
+    left: 79%;
+    text-align: center;
+    font-family: 'Mulish';
+    font-style: normal;
+}
+
+.Burrito img{
+border-radius: 9px;
+margin-bottom: 10px;
+}
+
+
+.load-btn input[type="button"]{ 
+    width: 170px;
+    height: 50px;
+    background: black;
+    border-radius: 2px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    cursor: pointer;
+    /* margin: 0 10px; */
+    color: white;
+    border-radius: 8px;
+    position: relative;
+    top: 870px;
+    left: 260px;
+   
+
+}
+
+
+
+.copy p{
+    position: absolute;
+    top: 1000px;
+    left:250px ;
+    font-family: 'Mulish';
+    font-style: normal;
+    color: rgb(131, 128, 128);
+    line-height: 38px;
+    margin-top:  -50px;
+    margin-bottom: 20px;
+}
+
+
+
+
+/* ----cart----- */
+
+
+.home-2 i{
+    box-sizing: border-box;
+position: absolute;
+bottom: 75.3%;
+height: 40px;
+width: 40px;
+left: 55px;
+top: 207px;
+border-radius: 0px;
+
+}
+
+
+
+.path-2 i{
+
+    position: absolute;
+   height: 40px;
+width: 37.99172592163086px;
+left: 55px;
+font-size: large;
+top: 520px;
+border-radius: 0px;
+/* bottom: 61.7%; */
+   
+   
+}
+.cart-2 i{
+    position: absolute;
+    height: 10px;
+    width: 24.290979385375977px;
+    left: 55px;
+    top: 60px;
+    border-radius: 0px;
+    bottom: 48.6%;
+    color: #000000;
+    
+}
+.cart-2{
+
+    position: absolute;
+    width: 134px;
+    height: 122px;
+    top: 302px;
+    
+background: #F1D5BB;
+
+}
+
+.location-2 i{
+    position: absolute;
+    height: 29.760000228881836px;
+    width: 25px;
+    left: 55px;
+    top: 650px;
+    border-radius: 0px;
+    
+    bottom: 31.72%;
+}
+
+.exit-2 i{
+    box-sizing: border-box;
+
+position: absolute;
+height: 40px;
+width: 40px;
+left: 55px;
+top: 770px;
+border-radius: 0px;
+}
+
+.cart-body{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.cart-cart{
+    width: 45%;
+    font-family: 'Mulish';
+    font-style: normal;
+}
+
+
+.cart-cart h1{
+    position: absolute;
+    width: 135px;
+    height: 63px;
+    left: 243px;
+    top: 43px;
+    
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 63px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+}
+
+
+.cart-cart img{
+ margin-bottom: 50px;
+    }
+.sub-total{
+
+    width: 30%;
+   
+}
+
+.cart-con{
+position: absolute;
+width: 550px;
+height: 608px;
+left: 244px;
+top: 135px;
+padding:  50px 10px;
+background: #F1D5BB;
+border-radius: 3px;
+}
+.ellipse{
+    display: flex;
+    justify-content: space-around;
+    /* text-align: center; */
+}
+.letter h3{
+padding-top: 1.6rem;
+    padding-right: 2rem;
+}
+.letter p{
+ /* margin:5px 2px ; */
+    padding: 4px 2px;
+}
+.ellipse .input input[type="number"]{
+    width: 30px;
+    height: 20px;
+   left: 660px;
+   top: 201px;
+
+}
+
+.ellipse .input {
+margin-right: 79px;
+margin-top: 40px;
+}
+
+.cancle{
+margin-right: 9px;
+  margin-top: 40px;
+}
+
+
+
+.your-sub{
+    position: absolute;
+width: 443px;
+height: 286px;
+left: 833px;
+top: 135px;
+
+background: #F1D5BB;
+border-radius: 3px;
+}
+
+.promo{
+    box-sizing: border-box;
+
+position: absolute;
+width: 443px;
+height: 326px;
+left: 833px;
+top: 417px;
+
+background: #FFFFFF;
+border: 1px solid #F1D5BB;
+border-radius: 3px;
+}
+
+
+.your-sub .moni{
+    justify-content: space-around;
+    display: flex;
+
+    position: absolute;
+width: 118px;
+height: 38px;
+left: 70px;
+top: 110px;
+
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+
+
+
+color: rgba(0, 0, 0, 0.8);
+}
+.your-sub h3{
+    position: absolute;
+width: 249px;
+height: 50px;
+left: 50px;
+top: 37px;
+
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 50px;
+
+color: #000000;
+}
+.moni p{
+margin: 5px;
+}
+
+.your-sub input[type="button"]{
+
+
+    position: relative;
+    width: 300px;
+    height: 50px;
+    left: 70px;
+    top: 200px;
+    color: #FFFFFF;
+    background: #000000;
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+}
+
+.promo h4{
+    left: 40px;
+    top: 40px;
+    position: absolute;
+width: 227px;
+height: 50px;
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 50px;
+
+color: #000000;
+}
+
+.promo input[type="text"]{
+    box-sizing: border-box;
+
+position: absolute;
+width: 365px;
+height: 78px;
+left: 40px;
+top: 120px;
+padding: 10px;
+font-size: larger;
+line-height: 50px;
+background: #FFFFFF;
+border: 1px solid #F1D5BB;
+
+}
+
+.promo input[type="button"]{
+    position: absolute;
+width: 166px;
+height: 78px;
+left: 140px;
+top: 220px;
+color: #FFFFFF;
+background: #000000;
+}
+
+.copy-right p{
+    position: absolute;
+    width: 250px;
+    height: 19px;
+    left: 244px;
+    top: 951px;
+    color: #575655;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+}
